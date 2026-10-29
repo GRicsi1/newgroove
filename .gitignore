@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+README.md
+referenciak/OLVASD_EL.txt
+test_e2e.py
