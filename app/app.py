@@ -13,7 +13,7 @@ def _natural_key(name):
 
 
 def gallery_files():
-    """A referenciak mappában lévő képek (max. 10), természetes sorrendben: 1, 2, ... 10."""
+    """"""
     try:
         names = [n for n in os.listdir(Config.GALLERY_DIR)
                  if os.path.splitext(n)[1].lower() in Config.GALLERY_EXTENSIONS
